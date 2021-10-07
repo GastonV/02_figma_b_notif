@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Inter';
+    color: #192434;
+}
+
+h1,
+h2,
+h5,
+p {
+    padding-left: 48px;
+}
+
+.container--full {
+    background-color: #FFFFFF;
+    /* not specified in Figma just to show the background */
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+
+.info {
+    background-color: #F3F5F7;
+    width: 800px;
+    height: 184px;
+}
+
+.heading1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top: 48px;
+    padding-right: 48px;
+}
+
+.content {
+    padding-top: 12px;
+    width: 704px;
+    top: 110px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(24, 39, 58, 0.94);
+}
+
+.container {
+    padding-bottom: 72px;
+    padding-top: 48px;
+}
+
+.heading2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35.08px;
+}
+
+.heading5 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 16px;
+    padding-top: 31px;
+}
+
+.box {
+    /* to flex position the labels */
+    padding-left: 48px;
+    padding-top: 16px;
+    display: flex;
+}
+
+/* ==================================== Labels ============================================================*/
+.label {
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 14px;
+    height: 17px;
+    margin: 0 4px;
+    padding: 4px 8px;
+    color: #FFFFFF;
+    background-color: #E8F2FE;
+    width: 53px;
+}
+
+.lable--primary--blue {
+    background-color: #1676F3;
+}
+
+.lable--primary--green {
+    background-color: #15C15D;
+}
+
+.lable--primary--orange {
+    background-color: #F52419;
+}
+
+.lable--primary--black {
+    background-color: #3F4C5D;
+}
+
+.lable--blue {
+    color: #1676F3;
+    background-color: #E8F2FE;
+}
+
+.lable--green {
+    color: #00A344;
+    background-color: #E8F9EF;
+}
+
+.lable--orange {
+    color: #F52419;
+    background-color: #FFEDEC;
+}
+
+.lable--black {
+    color: #3F4C5D;
+    background-color: #F3F5F7;
+}
+
+.lable--pill {
+    border-radius: 25px;
+}
+
+/*================================================== Buttons ==============================================================*/
+.container--button {
+    display: grid;
+    grid-template-columns: 220px 166px 200px 166px;
+    gap: 18px;
+    padding-left: 48px;
+}
+
+.grid--text {
+    font-size: 15px;
+    line-height: 16px;
+    height: 16px;
+    letter-spacing: 1.23454px;
+    text-align: left;
+    padding: 0;
+    color: #000000de;
+}
+
+.primary {
+    color: #FFFFFF;
+    background-color: #0074DB;
+    padding: 10px 12px;
+    width: 84px;
+    height: 36px;
+    border-radius: 4px;
+    border: transparent;
+}
+
+.secondary {
+    color: #1E1E1E;
+    background-color: #E9E9E9;
+}
+
+.outlined {
+    color: #1E1E1E;
+    background-color: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    box-sizing: border-box;
+}
+
+.container--black {
+    padding-top: 40px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_normal {
+    width: 245px;
+    height: 60px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: 2px solid #15499F;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-left: 44px;
+    margin-bottom: 40px;
+}
+.btn_normal:disabled{
+    background-color: #A9A9A9;
+    border: transparent;
+    cursor: not-allowed;
+}
+.btn_normal:active{
+    background-color: #0B2550;
+    border: transparent;
+    
+}
+.btn_normal:enabled:hover{
+    border: 4px solid #246CE2;
+}
+/*================================================== Cards ==============================================================*/
